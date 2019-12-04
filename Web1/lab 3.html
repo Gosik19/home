@@ -1,0 +1,72 @@
+#1
+*let fruits = ["Яблука", "Груша", "Апельсин"];
+let shoppingCart = fruits;
+shoppingCart.push ("Банан");
+alert (fruits.length);*/ //4
+#2
+    /*let styles = ["Джаз", "Блюз"];
+    styles.push('Рок-н-рол');
+    console.log(styles);
+    styles[1] = "Класика";
+    console.log(styles);
+    styles.splice(0,1);
+    console.log(styles);
+    styles.splice(0, 0, "Реггі");
+    styles.splice(0, 0, "Реn");
+    console.log(styles);*/    
+#3 /*let arr = ["a", "b"];
+arr.push (function () {
+alert (this);
+})
+arr [2] (); // Присвоює третьому елементу те що в дужках, та виводе масив */
+#4 
+/*function sumInput()
+{
+    var arr = []; 
+    let k = 1;
+    var znach = 0;
+    var t;
+    for(var i=0; i < k; i++) {
+    znach = prompt('Введи число'); 
+    if(znach === null || znach === '' || znach === undefined  || isNaN(znach)===true) 
+    { 
+        k = 0;
+    } 
+    else 
+    {
+        arr[i] = znach;
+        k++
+    }   
+}
+    console.log(arr); 
+}
+sumInput();*/
+#5/*
+var flag1=true,flag2=true,mas5 =[],chislo5,sum5=0;
+var left,right;
+while(flag1)
+{
+    chislo5 = prompt("Vvedi chislo:",);
+
+    if(chislo5 === "" || chislo5 === null || isNaN(chislo5)===true) 
+    {
+        flag1=false;
+    }
+    else{
+    mas5.push(+chislo5);
+    }
+}
+for(let i1=0; i1<mas5.length;i1++)
+{
+    left=mas5[i1];
+    while(left!=0)
+    {
+        right=left%10;
+        left=left/10;
+        sum5=sum5+right;
+        sum5=Math.floor(sum5);
+    }
+    flag2=true;
+}
+console.log(mas5);
+console.log(sum5);*/
